@@ -1,7 +1,7 @@
 (function() {
 
 	function callback() {
-    console.log("Bookmarklet script loaded.");
+		console.log("Bookmarklet script loaded.");
 	}
 
 	const element = document.createElement("script");
