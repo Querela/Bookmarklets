@@ -1,0 +1,20 @@
+(function() {
+
+  const SCRIPT_PATH = "@commit-hash/path/to/bookmarklet.js";
+
+  function callback() {
+    console.log("Bookmarklet script loaded.");
+  }
+
+  const element = document.createElement("script");
+  element.src = "https://cdn.jsdelivr.net/gh/Querela/Bookmarklets" + SCRIPT_PATH;
+
+  if (element.addEventListener) {
+    element.addEventListener("load", callback, false)
+  } else if (element.readyState) {
+    element.onreadystatechange = callback
+  }
+
+  document.body.appendChild(element);
+
+})();
