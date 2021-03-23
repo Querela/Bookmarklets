@@ -8,19 +8,19 @@
 	const STR_BTN_PREV = "Voriges anzeigen";
 	const STR_BTN_MORE = "Mehr anzeigen";
 	const STR_EMAG = "e-Magazin";
-  
-  // TODO: check we are on page: https://www.amazon.de/hz/mycd/myx?ref_=nav_AccountFlyout_myk
 
-  // All:     https://www.amazon.de/hz/mycd/myx?ref_=nav_AccountFlyout_myk
-  // Samples: https://www.amazon.de/hz/mycd/myx#/home/content/booksSamples/dateDsc/
-  // Buy:     https://www.amazon.de/hz/mycd/myx#/home/content/booksPurchases/dateDsc/
-  // Borrow:  https://www.amazon.de/hz/mycd/myx#/home/content/booksBorrows/dateDsc/
-  // KU only: https://www.amazon.de/hz/mycd/myx#/home/content/kuAll/dateDsc/
-  
-  // ----------------------------------------------------------------------
-  // extend promises for delays
-  
-  // ------------------------------------
+	// TODO: check we are on page: https://www.amazon.de/hz/mycd/myx?ref_=nav_AccountFlyout_myk
+
+	// All:     https://www.amazon.de/hz/mycd/myx?ref_=nav_AccountFlyout_myk
+	// Samples: https://www.amazon.de/hz/mycd/myx#/home/content/booksSamples/dateDsc/
+	// Buy:     https://www.amazon.de/hz/mycd/myx#/home/content/booksPurchases/dateDsc/
+	// Borrow:  https://www.amazon.de/hz/mycd/myx#/home/content/booksBorrows/dateDsc/
+	// KU only: https://www.amazon.de/hz/mycd/myx#/home/content/kuAll/dateDsc/
+
+	// ----------------------------------------------------------------------
+	// extend promises for delays
+
+	// ------------------------------------
 	// https://stackoverflow.com/a/39538518
 	function delay(t, v) {
 		return new Promise(function(resolve) { 
