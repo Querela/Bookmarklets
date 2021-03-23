@@ -1,11 +1,13 @@
 (function() {
 
+	const SCRIPT_PATH = "@da2759de8da77bf471cdd5c0a2e803d0164cef7d/001_amazon_own_ebooks/bookmarklet.js";
+
 	function callback() {
 		console.log("Bookmarklet script loaded.");
 	}
 
 	const element = document.createElement("script");
-	element.src = "https://cdn.jsdelivr.net/gh/Querela/Bookmarklets@f6b13d9b23cc43f9538f4881e5bb1ae9306b1d0b/001_amazon_own_ebooks/bookmarklet.js";
+	element.src = "https://cdn.jsdelivr.net/gh/Querela/Bookmarklets" + SCRIPT_PATH;
 
 	if (element.addEventListener) {
 		element.addEventListener("load", callback, false);
