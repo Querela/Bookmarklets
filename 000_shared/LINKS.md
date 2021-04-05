@@ -3,6 +3,8 @@
 ## Bookmarklets
 
 - [Bookmarklet generator](https://mrcoles.com/bookmarklet/)
+- [Some Bookmarklets by Paul Kinlan](https://paul.kinlan.me/tags/bookmarklet/)
+- [DevTools Eruda, Bookmarklet](https://github.com/liriliri/eruda)
 
 ## Delivering
 
